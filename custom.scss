@@ -1,0 +1,187 @@
+/*-- scss:defaults --*/
+
+$theme: "litera" !default;
+
+
+@font-face {
+  font-family: 'LL Brown-Regular';
+  src: local('Brown-Regular'), url('fonts/Brown-Regular.ttf') format('ttf'), url('fonts/Brown-Regular.ttf') format('ttf');
+}
+
+//
+// Color system
+//
+
+$white:    #f5f5f1 !default;
+$gray-100: #abb8c3 !default;
+$black:    #000 !default;
+
+$blue:    #4582ec !default;
+$orange:  #d63637 !default;
+$yellow:  #ffa800 !default;
+$cyan:    #17a2b8 !default;
+$beige:    #fcb900 !default;
+
+
+$primary:       $orange !default;
+$secondary:     $gray-100 !default;
+$info:          $orange !default;
+$warning:       $yellow !default;
+$danger:        $orange !default;
+$light:         $white !default;
+$dark:          $black !default;
+
+$min-contrast-ratio:   1.85 !default;
+
+// Body
+
+$body-color:                $black !default;
+
+// Fonts
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:"LL Brown-Regular", Helvetica, Arial,sans-serif !default;
+$font-family-serif: "LL Brown-Regular",Helvetica,Arial,sans-serif !default;
+
+// stylelint-enable
+
+$font-size-base:              1.1rem !default;
+$headings-font-weight:        700 !default;
+
+// Tables
+
+$table-border-color:          rgba(0, 0, 0, .1) !default;
+
+$table-bg-scale:              0 !default;
+
+// Buttons
+
+$input-btn-padding-y:         .5rem !default;
+$input-btn-padding-x:         1.1rem !default;
+$btn-font-family:             $font-family-sans-serif !default;
+$btn-font-size:               .875rem !default;
+$btn-font-size-sm:            .688rem !default;
+
+$btn-border-radius:           1.078em !default;
+$btn-border-radius-lg:        2.688em !default;
+$btn-border-radius-sm:        .844em !default;
+
+// Forms
+
+$input-border-color:                    rgba(0, 0, 0, .1) !default;
+$input-group-addon-bg:                  $gray-100 !default !default;
+
+// Navbar
+
+$navbar-header-color:               $white !default;
+$navbar-text-color:                   $black !default;
+$navbar-link-color:                 $black !default;
+$navbar-light-color:                $black;
+$navbar-light-hover-color:          $orange;
+
+// Tooltips
+
+$tooltip-font-size:                 11px !default;
+
+// Badges
+
+$badge-font-weight:                 400 !default;
+$badge-padding-y:                   .6em !default;
+$badge-padding-x:                   1.2em !default;
+
+// Alerts
+
+$alert-border-width:                0 !default;
+
+
+
+/*-- scss:rules --*/
+
+
+// Variables
+
+:root {
+  color-scheme: light;
+}
+
+// Navbar
+
+/* change the brand and text color */
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: $black;
+}
+
+/* change the link color */
+.navbar .navbar-nav .nav-link {
+    color: $black;
+}
+
+// Typography
+
+p {
+  font-family: $font-family-serif;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+footer {
+  font-size: $font-size-sm;
+}
+
+.lead {
+  font-family: $font-family-sans-serif;
+  color: $black;
+}
+
+// Tables
+
+table,
+.table {
+  font-size: $font-size-sm;
+}
+
+// Navs
+
+.nav,
+.breadcrumb,
+.pagination {
+  font-size: $font-size-sm;
+}
+
+.dropdown-menu {
+  font-size: $font-size-sm;
+}
+
+// Indicators
+
+.alert {
+  font-size: $font-size-sm;
+  color: $white;
+
+  &,
+  p {
+    font-family: $font-family-sans-serif;
+  }
+
+  a,
+  .alert-link {
+    font-weight: 400;
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+.badge {
+  &.bg-light {
+    color: $dark;
+  }
+}
+
+// Containers
+
+.list-group {
+  font-size: $font-size-sm;
+}

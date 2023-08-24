@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "ZWAGER"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - portfolio.qmd
+      - contact.qmd
+
+format:
+  html:
+    theme: custom.scss
+    css: styles.css
+    toc: true
+
+editor: visual
+
