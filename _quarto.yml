@@ -2,17 +2,27 @@ project:
   type: website
 
 website:
-  title: "ZWAGER"
+  title: "**THOMAS ZWAGERMAN**"
+  favicon: images/TZ-beige.png
   navbar:
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
       - portfolio.qmd
       - contact.qmd
+      
+  page-footer:
+    background: "#f5f5f1"
+    left: |
+      Copyright &copy; 2023 Thomas Zwagerman
 
 format:
   html:
+    grid:
+      body-width: 1300px
+      gutter-width: 1.5rem
     theme: custom.scss
     css: styles.css
     toc: true

@@ -5,17 +5,22 @@
     echo: false
   toc: false
   about: 
+    id: hero-heading
     template: trestles
     image: images/headshot.jpg
     image-shape: round
 ---
+:::{#hero-heading}
+## Hello there!
+My name is Thomas Zwagerman. I'm an Environmental Scientist and R developer, currently on a little break from data science and software development!
 
-My name is Thomas Zwagerman. I'm an environmental scientist and R developer, and currently on a little break from data science and software development!
+I have previously worked as an **Environmental Data Scientist** and as a **Spatial Data Analyst** at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/), where I developed tools and processes for the automated processing and quality assurance of air quality and climate change datasets, as well as developed interactive dissemination tools and reports for customers and stakeholders. I have also worked as a **Data Intelligence Officer** at the [Suffolk County Council](https://www.suffolk.gov.uk/), where I maintained the [SCC Planning](https://github.com/SCC-Planning) organisation on Github.
 
-I previously worked as an **Environmental Data Scientist** and as a **Spatial Data Analyst** at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/), where I developed tools and processes for the automated processing and quality assurance of air quality and climate change datasets, as well as developed interactive dissemination tools and reports for customers and stakeholders. I have also worked as a **Data Intelligence Officer** at the [Suffolk County Council](https://www.suffolk.gov.uk/), where I maintained the [SCC Planning](https://github.com/SCC-Planning) organisation on Github.
+I have a **BSc in Ecological & Environmental Sciences** from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic, and coded with a mix of Python and R. I was awarded the J.A. More Memorial Prize for best dissertation on a plant or crop topic.
 
-Away from work I'm (slowly) working on my Shiny application [fplboard](https://tzwagerman.shinyapps.io/fplboard/).
+::::
 
+## R Experience
 In R I have the follow experience:
 
 * Shiny Development, using the [golem framework](https://thinkr-open.github.io/golem/) to develop applications as a package, writing [modules](https://mastering-shiny.org/scaling-modules.html) for scalable applications and writing unit tests with [shinytest2](https://rstudio.github.io/shinytest2/).
@@ -28,9 +33,7 @@ In R I have the follow experience:
 
 * Spatial Data manipulation and visualisation with [sf](https://r-spatial.github.io/sf/), [terra](https://github.com/rspatial/terra), [leaflet](https://rstudio.github.io/leaflet/) and other relevant packages.
 
-I have a **BSc in Ecological & Environmental Sciences** from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic, and coded with a mix of Python and R. I was awarded the J.A. More Memorial Prize for best dissertation on a plant or crop topic.
-
-## Resources
+## Resources I use
  
 My first stepts in R were at the [Coding Club](https://ourcodingclub.github.io/). 
 

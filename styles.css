@@ -1,1 +1,64 @@
 /* css styles */
+
+@media (min-width: 540px)
+.cardg {
+    grid-template-columns: repeat(2, 1fr);
+    border: none;
+    height: 100%;
+}
+
+.layout_grid_cards {
+    padding: 1% 2%;
+    //border-top: 2px solid #eeeeee;
+    height: 50%;
+    display: grid;
+}
+
+.cardg {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: var(--spacing-l);
+    grid-row-gap: 10px;
+    width: 100%;
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.card_img {
+    list-style: none;
+    position: relative;
+    border: none;
+    width: 100%;
+}
+
+.card_img:before {
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+}
+
+.card__background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: #fcb900 2px 2px 5px 2px;
+}
+
+.card__content {
+    left: 0;
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+}
