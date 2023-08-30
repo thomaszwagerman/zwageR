@@ -6,12 +6,9 @@ execute:
 
 website:
   title: "**THOMAS ZWAGERMAN**"
-  cookie-consent:
-    type: express
-    style: headline
-    palette: dark
   google-analytics: 
     tracking-id: "G-81ENW8BPLM"
+    storage: none
     anonymize-ip: true
   favicon: images/TZ-beige.png
   navbar:
