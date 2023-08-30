@@ -3,6 +3,9 @@ project:
 
 website:
   title: "**THOMAS ZWAGERMAN**"
+  google-analytics: 
+    tracking-id: "G-81ENW8BPLM"
+    storage: none
   favicon: images/TZ-beige.png
   navbar:
     right:
