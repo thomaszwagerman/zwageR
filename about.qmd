@@ -10,35 +10,37 @@
     image: images/headshot.jpg
     image-shape: round
 ---
-:::{#hero-heading}
+
+::: {#hero-heading}
 ## Hello there!
-My name is Thomas Zwagerman. I'm an Environmental Scientist and R developer, currently on a little break from data science and software development!
+
+My name is Thomas Zwagerman. I'm a **Research Software Engineer** at the [British Antarctic Survey](https://www.bas.ac.uk/).
 
 I have previously worked as an **Environmental Data Scientist** and as a **Spatial Data Analyst** at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/), where I developed tools and processes for the automated processing and quality assurance of air quality and climate change datasets, as well as developed interactive dissemination tools and reports for customers and stakeholders. I have also worked as a **Data Intelligence Officer** at the [Suffolk County Council](https://www.suffolk.gov.uk/), where I maintained the [SCC Planning](https://github.com/SCC-Planning) organisation on Github.
 
 I have a **BSc in Ecological & Environmental Sciences** from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic, and coded with a mix of Python and R. I was awarded the J.A. More Memorial Prize for best dissertation on a plant or crop topic.
-
-::::
+:::
 
 ## R Experience
+
 In R I have the follow experience:
 
-* Shiny Development, using the [golem framework](https://thinkr-open.github.io/golem/) to develop applications as a package, writing [modules](https://mastering-shiny.org/scaling-modules.html) for scalable applications and writing unit tests with [shinytest2](https://rstudio.github.io/shinytest2/).
-  
-* Writing [plumber](https://www.rplumber.io/) APIs and leveraging web APIs with [httr](https://httr.r-lib.org/).
+-   Shiny Development, using the [golem framework](https://thinkr-open.github.io/golem/) to develop applications as a package, writing [modules](https://mastering-shiny.org/scaling-modules.html) for scalable applications and writing unit tests with [shinytest2](https://rstudio.github.io/shinytest2/).
 
-* Automating workflows using [RStudio Connect](https://www.rstudio.com/products/connect/) and [pins](https://github.com/rstudio/pins-r) (I am a contributor on the pins package).
+-   Writing [plumber](https://www.rplumber.io/) APIs and leveraging web APIs with [httr](https://httr.r-lib.org/).
 
-* Writing scientific and technical documents in [distill](https://rstudio.github.io/distill/) and [quarto](https://quarto.org/).
+-   Automating workflows using [RStudio Connect](https://www.rstudio.com/products/connect/) and [pins](https://github.com/rstudio/pins-r) (I am a contributor on the pins package).
 
-* Spatial Data manipulation and visualisation with [sf](https://r-spatial.github.io/sf/), [terra](https://github.com/rspatial/terra), [leaflet](https://rstudio.github.io/leaflet/) and other relevant packages.
+-   Writing scientific and technical documents in [distill](https://rstudio.github.io/distill/) and [quarto](https://quarto.org/).
+
+-   Spatial Data manipulation and visualisation with [sf](https://r-spatial.github.io/sf/), [terra](https://github.com/rspatial/terra), [leaflet](https://rstudio.github.io/leaflet/) and other relevant packages.
 
 ## Resources I use
- 
-My first stepts in R were at the [Coding Club](https://ourcodingclub.github.io/). 
 
-Currently my favourite R books are [Mastering Shiny by Hadley Wickham](https://mastering-shiny.org/) and [Efficient R programming by Colin Gillespie and Robin Lovelace](https://csgillespie.github.io/efficientR/). 
+My first stepts in R were at the [Coding Club](https://ourcodingclub.github.io/).
 
-When I worked as a Spatial Data Analyst, I learned most of my spatial R from [Geocomputation with R by Robin Lovelace](https://geocompr.robinlovelace.net/). 
+Currently my favourite R books are [Mastering Shiny by Hadley Wickham](https://mastering-shiny.org/) and [Efficient R programming by Colin Gillespie and Robin Lovelace](https://csgillespie.github.io/efficientR/).
+
+When I worked as a Spatial Data Analyst, I learned most of my spatial R from [Geocomputation with R by Robin Lovelace](https://geocompr.robinlovelace.net/).
 
 I previously taught as an instructor on [Transforming Environmental Data in R](https://www.ceh.ac.uk/training/transforming-environmental-data-r).
