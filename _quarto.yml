@@ -19,8 +19,6 @@ website:
         file: index.qmd
       - text: "Software Packages"
         file: software.qmd
-      - text: "Publications"
-        file: publications.qmd
       - text: "Contact"
         file: contact.qmd
   page-footer:
