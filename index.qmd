@@ -70,7 +70,7 @@ Where to find me
 :::
 ::: {.card-body}
 <i class="fa fa-envelope"></i> thozwa@bas.ac.uk  
-<i class="fa-brands fa-github"></i> [github.com/thomaszwagerman](https://github.com/thomaszwagerman)
+<i class="fa-brands fa-github"></i> [github.com/thomaszwagerman](https://github.com/thomaszwagerman)    
 <i class="fa-brands fa-orcid"></i> ORCID: [0009-0003-3742-3234](https://orcid.org/my-orcid?orcid=0009-0003-3742-3234)
 :::
 ::::
