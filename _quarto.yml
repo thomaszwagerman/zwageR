@@ -6,8 +6,12 @@ execute:
   
 website:
   title: "Thomas Zwagerman"
+  google-analytics: 
+    tracking-id: "G-81ENW8BPLM"
+    storage: none
+    anonymize-ip: true
+  favicon: images/TZ-beige.png
   navbar:
-    logo: "https://www.bas.ac.uk/wp-content/themes/british-antarctic-survey/images/logos/bas-logo.svg"
     background: "#003D73"
     search: true
     left:
