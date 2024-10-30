@@ -3,7 +3,7 @@ title: "Software Packages"
 format: html
 ---
 
-::: {layout="[[2,3]]"}
+::: {layout="[[2,2]]"}
 :::: {.card}
 ::: {.card-header}
 butterfly
