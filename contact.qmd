@@ -1,9 +1,15 @@
 ---
 title: "Contact"
+format: html
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+:::: {.card}
+::: {.card-header}
+Where to find me
+:::
+::: {.card-body}
+<i class="fa fa-envelope"></i> thozwa@bas.ac.uk  
+<i class="fa fa-github"></i> github.com/thomaszwagerman  
+<i class="fa fa-orcid"></i> ORCID: 0009-0003-3742-3234
+:::
+::::
