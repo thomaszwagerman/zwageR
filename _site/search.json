@@ -1,51 +1,44 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Thomas Zwagerman",
-    "section": "",
-    "text": "My name is Thomas Zwagerman. I’m a Research Software Engineer at the British Antarctic Survey.\nI have previously worked as an Environmental Data Scientist and as a Spatial Data Analyst at the UK Centre for Ecology and Hydrology, where I developed tools and processes for the automated processing and quality assurance of air quality and climate change datasets, as well as developed interactive dissemination tools and reports for customers and stakeholders. I have also worked as a Data Intelligence Officer at the Suffolk County Council, where I maintained the SCC Planning organisation on Github.\nI have a BSc in Ecological & Environmental Sciences from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic, and coded with a mix of Python and R. I was awarded the J.A. More Memorial Prize for best dissertation on a plant or crop topic."
-  },
-  {
-    "objectID": "about.html#hello-there",
-    "href": "about.html#hello-there",
-    "title": "Thomas Zwagerman",
-    "section": "",
-    "text": "My name is Thomas Zwagerman. I’m a Research Software Engineer at the British Antarctic Survey.\nI have previously worked as an Environmental Data Scientist and as a Spatial Data Analyst at the UK Centre for Ecology and Hydrology, where I developed tools and processes for the automated processing and quality assurance of air quality and climate change datasets, as well as developed interactive dissemination tools and reports for customers and stakeholders. I have also worked as a Data Intelligence Officer at the Suffolk County Council, where I maintained the SCC Planning organisation on Github.\nI have a BSc in Ecological & Environmental Sciences from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic, and coded with a mix of Python and R. I was awarded the J.A. More Memorial Prize for best dissertation on a plant or crop topic."
-  },
-  {
-    "objectID": "about.html#r-experience",
-    "href": "about.html#r-experience",
-    "title": "Thomas Zwagerman",
-    "section": "R Experience",
-    "text": "R Experience\nIn R I have the follow experience:\n\nShiny Development, using the golem framework to develop applications as a package, writing modules for scalable applications and writing unit tests with shinytest2.\nWriting plumber APIs and leveraging web APIs with httr.\nAutomating workflows using RStudio Connect and pins (I am a contributor on the pins package).\nWriting scientific and technical documents in distill and quarto.\nSpatial Data manipulation and visualisation with sf, terra, leaflet and other relevant packages."
-  },
-  {
-    "objectID": "about.html#resources-i-use",
-    "href": "about.html#resources-i-use",
-    "title": "Thomas Zwagerman",
-    "section": "Resources I use",
-    "text": "Resources I use\nMy first stepts in R were at the Coding Club.\nCurrently my favourite R books are Mastering Shiny by Hadley Wickham and Efficient R programming by Colin Gillespie and Robin Lovelace.\nWhen I worked as a Spatial Data Analyst, I learned most of my spatial R from Geocomputation with R by Robin Lovelace.\nI previously taught as an instructor on Transforming Environmental Data in R."
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "FPLBoard\n\n\nShiny Application\n\n\n\n\n\n\n\n\n\n\n\n\n\nsccthemes\n\n\nR package\n\n\n\n\n\n\n\n\n\n\n\n\n\nscctemplate\n\n\nR package\n\n\n\n\n\n\n```"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello there!",
-    "section": "",
-    "text": "PLACEHOLDER.\n\n\nABOUT\n\n\n\n\n\n\n\n\nPLACEHOLDER and building websites.\n\n\nPORTFOLIO\n\n\n\n\n\n\n\n\nCONTACT\n\n\nCONTACT\n\n\n\n\n\n\n\n\nPLACEHOLDER.\n\n\nSOMETHING ELSE"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Where to find me\n\n\n thozwa@bas.ac.uk\n github.com/thomaszwagerman\n ORCID: 0009-0003-3742-3234"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Thomas Zwagerman",
+    "section": "",
+    "text": "Hello there!\n\n\n\n  \n    \n\n  \n  \nMy name is Thomas Zwagerman. I’m a Research Software Engineer at the British Antarctic Survey. I mostly work in R.\nI have previously worked as an Environmental Data Scientist and as a Spatial Data Analyst at the UK Centre for Ecology and Hydrology.\nI have a BSc in Ecological & Environmental Sciences from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic.\nResearch Interests:\n\nFAIR Data and Research Software\nReproducible Research Methods\nOpen Source Scientific Software\nEnvironmental Forecasting and Digital Twins"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Thomas Zwagerman",
+    "section": "",
+    "text": "Hello there!\n\n\n\n  \n    \n\n  \n  \nMy name is Thomas Zwagerman. I’m a Research Software Engineer at the British Antarctic Survey. I mostly work in R.\nI have previously worked as an Environmental Data Scientist and as a Spatial Data Analyst at the UK Centre for Ecology and Hydrology.\nI have a BSc in Ecological & Environmental Sciences from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic.\nResearch Interests:\n\nFAIR Data and Research Software\nReproducible Research Methods\nOpen Source Scientific Software\nEnvironmental Forecasting and Digital Twins"
+  },
+  {
+    "objectID": "index.html#software-packages",
+    "href": "index.html#software-packages",
+    "title": "Thomas Zwagerman",
+    "section": "Software Packages",
+    "text": "Software Packages\n\n\n\n\n\n\n\nbutterfly\n\n\nAn R package for the verification of continually updating timeseries data where we expect new values, but want to ensure previous data remains unchanged.\n\nView Project\n\n\n\n\nasli-pipeline\n\n\nA pipeline for operational execution of the Amundsen Sea Ice Low calculations, provided in the asli package. The functions in the asli package are described in detail in the package repository amundsen-sea-low-index.\nView Project\n\n\n\n\nView All Software"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Thomas Zwagerman",
+    "section": "Contact",
+    "text": "Contact\n\n\nWhere to find me\n\n\n thozwa@bas.ac.uk\n github.com/thomaszwagerman\n ORCID: 0009-0003-3742-3234"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software Packages",
+    "section": "",
+    "text": "butterfly\n\n\nAn R package for the verification of continually updating timeseries data where we expect new values, but want to ensure previous data remains unchanged.\n\nView Project\n\n\n\n\nasli-pipeline\n\n\nA pipeline for operational execution of the Amundsen Sea Ice Low calculations, provided in the asli package. The functions in the asli package are described in detail in the package repository amundsen-sea-low-index.\nView Project\n\n\n\n\n\n\nasli-app\n\n\nA minimal Shiny application to demonstrate EDS services, using the Amundsen Sea Low Index as a case study.\nView Project\n\n\n\n\nbasdoc\n\n\nBAS template for Quarto presentations with reveal.js\nView Project\n\n\n\n\n\n\nfplboard\n\n\nShiny app leveraging Fantasy Premier League’s API data. Developed as a package using the golem framework.\nView Project"
   }
 ]

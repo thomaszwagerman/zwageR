@@ -1,44 +1,76 @@
 ---
-title: "Hello there!"
-page-layout: full
+title: "Thomas Zwagerman"
+format: html
+about: 
+  id: hero-heading
+  template: trestles
+  image: images/headshot.jpg
+  image-shape: round
 ---
 
-::: {.grid}
+## About Me
 
-::: {.g-col-12 .g-col-md-3}
-<div class="card h-100" id="card-first-color">
-<div class="card-body d-flex flex-column">
-<p class="card-text">PLACEHOLDER.</p>
-<div style="margin-top: auto;"><a href="about.qmd" class="card-link heading-font">ABOUT</a></div>
-</div>
-</div>
+:::: {.card}
+::: {.card-header}
+Hello there!
+:::
+::: {.card-body}
+::: {#hero-heading}
+My name is Thomas Zwagerman. I'm a **Research Software Engineer** at the [British Antarctic Survey](https://www.bas.ac.uk/). I mostly work in R.
+
+I have previously worked as an **Environmental Data Scientist** and as a **Spatial Data Analyst** at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/).
+
+I have a **BSc in Ecological & Environmental Sciences** from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic.
+
+**Research Interests:**
+
+- FAIR Data and Research Software
+- Reproducible Research Methods
+- Open Source Scientific Software
+- Environmental Forecasting and Digital Twins
+:::
+:::
+::::
+
+## Software Packages
+
+::: {layout="[[1,1]]"}
+:::: {.card}
+::: {.card-header}
+butterfly
+:::
+::: {.card-body}
+An R package for the verification of continually updating timeseries data where we expect new values, but want to ensure previous data remains unchanged.
+
+<a href="https://thomaszwagerman.github.io/butterfly/"><img src="https://raw.githubusercontent.com/thomaszwagerman/butterfly/refs/heads/main/inst/figures/logo.png" align="centre" height="139" alt="butterfly website" /></a>
+
+[View Project](https://github.com/thomaszwagerman/butterfly){.btn .btn-primary}
+:::
+::::
+
+:::: {.card}
+::: {.card-header}
+asli-pipeline
+:::
+::: {.card-body}
+A pipeline for operational execution of the Amundsen Sea Ice Low calculations, provided in the asli package. The functions in the asli package are described in detail in the package repository amundsen-sea-low-index.
+
+[View Project](https://github.com/antarctica/asli-pipeline){.btn .btn-primary}
+:::
+::::
 :::
 
-::: {.g-col-12 .g-col-md-3}
-<div class="card h-100" id="card-second-color">
-<div class="card-body d-flex flex-column">
-<p class="card-text">PLACEHOLDER<i class="fa-brands fa-r-project" aria-label="R project"></i> and building websites.</p>
-<div style="margin-top: auto;"><a href="portfolio.qmd" class="card-link second-color-link heading-font">PORTFOLIO</a></div>
-</div>
-</div>
-:::
+[View All Software](software.){.btn .btn-primary}
 
-::: {.g-col-12 .g-col-md-3}
-<div class="card h-100" id="card-first-color">
-<div class="card-body d-flex flex-column">
-<p class="card-text">CONTACT</p>
-<div style="margin-top: auto;"><a href="contact.qmd" class="card-link heading-font">CONTACT</a></div>
-</div>
-</div>
-:::
+## Contact {.text-center}
 
-::: {.g-col-12 .g-col-md-3}
-<div class="card h-100" id="card-first-color">
-<div class="card-body d-flex flex-column">
-<p class="card-text">PLACEHOLDER.</p>
-<div style="margin-top: auto;"><a href="about.qmd" class="card-link heading-font">SOMETHING ELSE</a></div>
-</div>
-</div>
+:::: {.card}
+::: {.card-header}
+Where to find me
 :::
-
+::: {.card-body}
+<i class="fa fa-envelope"></i> thozwa@bas.ac.uk  
+<i class="fa-brands fa-github"></i> [github.com/thomaszwagerman](https://github.com/thomaszwagerman)    
+<i class="fa-brands fa-orcid"></i> ORCID: [0009-0003-3742-3234](https://orcid.org/my-orcid?orcid=0009-0003-3742-3234)
 :::
+::::

@@ -1,38 +1,45 @@
 project:
   type: website
 
-execute: 
-  freeze: true
-
+execute:
+  freeze: auto
+  
 website:
-  title: "**THOMAS ZWAGERMAN**"
+  title: "Thomas Zwagerman"
   google-analytics: 
     tracking-id: "G-81ENW8BPLM"
     storage: none
     anonymize-ip: true
   favicon: images/TZ-beige.png
   navbar:
-    right:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - portfolio.qmd
-      - contact.qmd
-      
+    background: "#003D73"
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Software Packages"
+        file: software.qmd
+      - text: "Contact"
+        file: contact.qmd
   page-footer:
-    background: "#f5f5f1"
-    left: |
-      Copyright &copy; 2023 Thomas Zwagerman
+    left: "© 2024 Thomas Zwagerman"
+    right: 
+      - icon: github
+        href: https://github.com/thomaszwagerman
+      - icon: orcid
+        href: https://orcid.org/0009-0003-3742-3234
 
 format:
   html:
-    grid:
-      body-width: 1300px
-      gutter-width: 1.5rem
-    theme: custom.scss
+    theme:
+      dark: [darkly, custom.scss]
+      light: [flatly, custom.scss]
     css: styles.css
     toc: true
-
-editor: visual
-
+    toc-location: right
+    page-layout: full
+    fontsize: 1.1em
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
