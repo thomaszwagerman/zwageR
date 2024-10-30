@@ -16,14 +16,11 @@ Hello there!
 :::
 ::: {.card-body}
 ::: {#hero-heading}
-## Hello there!
-
 My name is Thomas Zwagerman. I'm a **Research Software Engineer** at the [British Antarctic Survey](https://www.bas.ac.uk/). I mostly work in R.
 
 I have previously worked as an **Environmental Data Scientist** and as a **Spatial Data Analyst** at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/).
 
 I have a **BSc in Ecological & Environmental Sciences** from the University of Edinburgh. I wrote my dissertation on vegetation change impact on arctic land-atmosphere interactions and snowmelt in the Arctic.
-:::
 
 **Research Interests:**
 
@@ -31,6 +28,7 @@ I have a **BSc in Ecological & Environmental Sciences** from the University of E
 - Reproducible Research Methods
 - Open Source Scientific Software
 - Environmental Forecasting and Digital Twins
+:::
 :::
 ::::
 
@@ -61,6 +59,8 @@ A pipeline for operational execution of the Amundsen Sea Ice Low calculations, p
 :::
 ::::
 :::
+
+[View All Software](software.qmd){.btn .btn-primary}
 
 ## Publications
 
