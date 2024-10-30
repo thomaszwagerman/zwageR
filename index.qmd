@@ -60,7 +60,7 @@ A pipeline for operational execution of the Amundsen Sea Ice Low calculations, p
 ::::
 :::
 
-[View All Software](software.qmd){.btn .btn-primary}
+[View All Software](software.){.btn .btn-primary}
 
 ## Publications
 
