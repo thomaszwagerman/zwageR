@@ -2,7 +2,6 @@
 title: "Software Packages"
 format: html
 ---
-
 ::: {layout="[[2,2]]"}
 :::: {.card}
 ::: {.card-header}
@@ -60,4 +59,27 @@ Shiny app leveraging Fantasy Premier League's API data. Developed as a package u
 [View Project](https://github.com/thomaszwagerman/fplboard){.btn .btn-primary}
 :::
 ::::
+:::
+
+:::: {.card}
+::: {.card-header}
+Package Contributions
+:::
+::: {.card-body}
+::: {layout="[[2,2]]"}
+[r-pins](https://github.com/rstudio/pins-r){.btn .btn-primary}
+
+[pkgstats](https://github.com/ropensci-review-tools/pkgstats){.btn .btn-primary}
+
+[rOpenSci Dev Guide](https://github.com/ropensci/dev_guide){.btn .btn-primary}
+
+[Mastering Shiny](https://mastering-shiny.org/index.html){.btn .btn-primary}
+
+[ai-covenant](https://github.com/chartgerink/ai-covenant){.btn .btn-primary}
+
+[communers](https://github.com/communers/communers.github.io){.btn .btn-primary}
+
+[amundsen-sea-low-index](https://github.com/scotthosking/amundsen-sea-low-index){.btn .btn-primary}
+:::
+:::
 :::
