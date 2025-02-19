@@ -15,7 +15,7 @@ about:
 :::
 ::: {.card-body}
 ::: {#hero-heading}
-My name is Thomas Zwagerman. I'm a **Research Software Engineer** at the [British Antarctic Survey](https://www.bas.ac.uk/). I mostly work in R.
+My name is Thomas Zwagerman. I'm a **Research Software Engineer** at the [British Antarctic Survey](https://www.bas.ac.uk/), within the Digital Innovation Team. We are a team of RSEs developing software infrastructure that supports the long term sustainable delivery of impacts from digital projects at BAS. I mostly work in R.
 
 I have previously worked as an **Environmental Data Scientist** and as a **Spatial Data Analyst** at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/).
 
@@ -24,9 +24,10 @@ I have a **BSc in Ecological & Environmental Sciences** from the University of E
 **Research Interests:**
 
 - FAIR Data and Research Software
-- Reproducible Research Methods
-- Open Source Scientific Software
-- Environmental Forecasting and Digital Twins
+- Sensor to Publication Data Processing Pipelines
+- Environmental Forecasting
+- Digital Twins
+- Low Power, Low Bandwith Sensor Networks
 :::
 :::
 ::::
