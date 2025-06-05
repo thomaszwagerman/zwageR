@@ -5,7 +5,7 @@
 }
 
 .card-header {
-  background-color: #003D73;
+  background-color: #073642;
   color: white;
   padding: 1rem;
 }
@@ -18,15 +18,6 @@
 .subtle-text {
   color: #666;
   font-style: italic;
-}
-
-/* Links */
-a {
-  color: #003D73;
-}
-
-a:hover {
-  color: #00A3E0;
 }
 
 /* Social icons */

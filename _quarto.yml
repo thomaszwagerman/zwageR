@@ -12,7 +12,7 @@ website:
     anonymize-ip: true
   favicon: images/TZ-beige.png
   navbar:
-    background: "#003D73"
+    background: "#073642"
     search: true
     left:
       - text: "Home"
@@ -31,9 +31,7 @@ website:
 
 format:
   html:
-    theme:
-      dark: [darkly, custom.scss]
-      light: [flatly, custom.scss]
+    theme: [solar, custom.scss]
     css: styles.css
     toc: true
     toc-location: right
