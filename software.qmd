@@ -23,18 +23,20 @@ asli-pipeline
 ::: {.card-body}
 A pipeline for operational execution of the Amundsen Sea Ice Low calculations, provided in the asli package. The functions in the asli package are described in detail in the package repository amundsen-sea-low-index.
 
+<a href="https://github.com/antarctica/asli-pipeline/"><img src="https://scotthosking.com/assets/images/asl_index-crop3.png" align="centre" height="139" alt="asli-pipeline website" /></a>
+
 [View Project](https://github.com/antarctica/asli-pipeline){.btn .btn-primary}
 :::
 ::::
 
 :::: {.card}
 ::: {.card-header}
-asli-app
+all-all-contributors
 :::
 ::: {.card-body}
-A minimal Shiny application to demonstrate EDS services, using the Amundsen Sea Low Index as a case study.
+Developed as part of Collaborations Workshop 2025, all-all-contributors is a plugin to list all contributors at the level of a Github Organisation.
 
-[View Project](https://github.com/antarctica/asliapp){.btn .btn-primary}
+[View Project](https://github.com/the-turing-way/all-all-contributors){.btn .btn-primary}
 :::
 ::::
 
@@ -44,6 +46,8 @@ basdoc
 :::
 ::: {.card-body}
 BAS template for Quarto presentations with reveal.js
+
+<a href="https://github.com/antarctica/basdoc"><img src="https://raw.githubusercontent.com/antarctica/basdoc/refs/heads/main/images/title-slide.png" align="centre" height="139" alt="basdoc website" /></a>
 
 [View Project](https://github.com/antarctica/basdoc){.btn .btn-primary}
 :::
@@ -55,6 +59,8 @@ fplboard
 :::
 ::: {.card-body}
 Shiny app leveraging Fantasy Premier League's API data. Developed as a package using the golem framework.
+
+<a href="https://tzwagerman.shinyapps.io/fplboard/"><img src="https://raw.githubusercontent.com/thomaszwagerman/fplboard/refs/heads/main/inst/app/www/logo.png" align="center" height="139" alt="fplboard website" /></a>
 
 [View Project](https://github.com/thomaszwagerman/fplboard){.btn .btn-primary}
 :::
