@@ -12,7 +12,7 @@ website:
     anonymize-ip: true
   favicon: images/TZ-beige.png
   navbar:
-    background: "#003D73"
+    background: "#073642"
     search: true
     left:
       - text: "Home"
@@ -22,7 +22,7 @@ website:
       - text: "Contact"
         file: contact.qmd
   page-footer:
-    left: "© 2024 Thomas Zwagerman"
+    left: "© 2025 Thomas Zwagerman"
     right: 
       - icon: github
         href: https://github.com/thomaszwagerman
@@ -31,9 +31,7 @@ website:
 
 format:
   html:
-    theme:
-      dark: [darkly, custom.scss]
-      light: [flatly, custom.scss]
+    theme: [solar, custom.scss]
     css: styles.css
     toc: true
     toc-location: right
