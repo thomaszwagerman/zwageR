@@ -22,7 +22,7 @@ website:
       - text: "Contact"
         file: contact.qmd
   page-footer:
-    left: "© 2024 Thomas Zwagerman"
+    left: "© 2025 Thomas Zwagerman"
     right: 
       - icon: github
         href: https://github.com/thomaszwagerman
